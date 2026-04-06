@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>LM Covoiturage - Dourges 1</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- Leaflet.markercluster CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+    <!-- Notre style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Barre de recherche -->
+        <div class="search-container">
+            <div class="search-tabs">
+                <button class="tab-btn active" data-search-type="name">👤 Nom / Prénom</button>
+                <button class="tab-btn" data-search-type="city">🏠 Localité</button>
+            </div>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Rechercher..." autocomplete="off">
+                <button id="searchClear" class="clear-btn" style="display: none;">✕</button>
+            </div>
+        </div>
+
+        <!-- Conteneur de la carte -->
+        <div id="map"></div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- Leaflet.markercluster JS -->
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+    <!-- Nos données (employés) -->
+    <script src="data.js"></script>
+    <!-- Notre app -->
+    <script src="app.js"></script>
+</body>
+</html>
