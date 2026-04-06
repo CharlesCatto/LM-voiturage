@@ -12,7 +12,7 @@ const employees = [
         lng: 2.6400,
         email: "jean.dupont@leroymerlin.fr",
         avatar: "https://randomuser.me/api/portraits/men/1.jpg",
-        equipe: "matin"
+        equipe: "A"
     },
     {
         id: 2,
@@ -23,7 +23,7 @@ const employees = [
         lng: 2.6790,
         email: "marie.petit@leroymerlin.fr",
         avatar: "https://randomuser.me/api/portraits/women/2.jpg",
-        equipe: "matin"
+        equipe: "A"
     },
     {
         id: 3,
@@ -34,7 +34,7 @@ const employees = [
         lng: 2.6450,
         email: "philippe.bernard@leroymerlin.fr",
         avatar: "https://randomuser.me/api/portraits/men/3.jpg",
-        equipe: "aprem"
+        equipe: "B"
     },
     {
         id: 4,
@@ -45,7 +45,7 @@ const employees = [
         lng: 2.6020,
         email: "sophie.dubois@leroymerlin.fr",
         avatar: "", // avatar par défaut
-        equipe: "aprem"
+        equipe: "B"
     },
     
     // Secteur Arras (4 personnes)
@@ -58,7 +58,7 @@ const employees = [
         lng: 2.7774,
         email: "thomas.martin@leroymerlin.fr",
         avatar: "https://randomuser.me/api/portraits/men/5.jpg",
-        equipe: "matin"
+        equipe: "A"
     },
     {
         id: 6,
@@ -69,7 +69,7 @@ const employees = [
         lng: 2.7640,
         email: "julie.robert@leroymerlin.fr",
         avatar: "https://randomuser.me/api/portraits/women/6.jpg",
-        equipe: "aprem"
+        equipe: "B"
     },
     {
         id: 7,
@@ -80,7 +80,7 @@ const employees = [
         lng: 2.7590,
         email: "nicolas.richard@leroymerlin.fr",
         avatar: "", // avatar par défaut
-        equipe: "nuit"
+        equipe: "C"
     },
     {
         id: 8,
@@ -91,7 +91,7 @@ const employees = [
         lng: 2.7260,
         email: "laura.durand@leroymerlin.fr",
         avatar: "https://randomuser.me/api/portraits/women/8.jpg",
-        equipe: "nuit"
+        equipe: "C"
     },
     
     // Secteur Douai/Lièvin (4 personnes)
@@ -104,7 +104,7 @@ const employees = [
         lng: 3.0764,
         email: "david.lefebvre@leroymerlin.fr",
         avatar: "https://randomuser.me/api/portraits/men/9.jpg",
-        equipe: "matin"
+        equipe: "A"
     },
     {
         id: 10,
@@ -115,7 +115,7 @@ const employees = [
         lng: 2.7808,
         email: "celine.moreau@leroymerlin.fr",
         avatar: "https://randomuser.me/api/portraits/women/10.jpg",
-        equipe: "aprem"
+        equipe: "B"
     },
     {
         id: 11,
@@ -126,7 +126,7 @@ const employees = [
         lng: 2.9580,
         email: "lucas.simon@leroymerlin.fr",
         avatar: "", // avatar par défaut
-        equipe: "nuit"
+        equipe: "C"
     },
     {
         id: 12,
@@ -137,14 +137,14 @@ const employees = [
         lng: 2.9470,
         email: "emma.laurent@leroymerlin.fr",
         avatar: "", // avatar par défaut
-        equipe: "matin"
+        equipe: "A"
     }
 ];
 
 // Entrepôt Dourges 1 (point central)
 const entrepot = {
-    nom: "Leroy Merlin Dourges 1",
-    lat: 50.4376,
-    lng: 2.8837,
-    adresse: "Avenue de l'Europe, Dourges"
+    nom: "Leroy Merlin Dourges 1 - Delta 3",
+    lat: 50.4466,  // À vérifier, je mets à jour
+    lng: 2.9795,   // À vérifier
+    adresse: "Plateforme Multimodale Delta 3, Avenue de l'Europe, 62119 Dourges"
 };
